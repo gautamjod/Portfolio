@@ -1,0 +1,9 @@
+.front,.back{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.container{
+    height: 350px;
+    width: 200px;
+}
