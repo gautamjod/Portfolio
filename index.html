@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Page</title>
+
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!--BOOTSTRAP 5 CDN LINKS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+
+    <!--Navbar section-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg   fixed-top   ">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#services">Skills</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <!-- <a class="nav-link" href="#blog">Blog</a> -->
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Banner Section-->
+    <seciton id="home" class="">
+        <div class="container banner_wrapper mb-5">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Gautam Vaid</h1>
+                    <h5 class="text-uppercase">Software Developer</h5>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="#">Hire Me</a>
+                        <a class="main-btn secondary-btn ms-4" href="#">Get CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </seciton>
+
+    <!-- About Section -->
+
+    <section id="about" class="about_wrapper">
+        <div class="container mt-5 mb-5">
+            <div class="row align-item-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="/images/about-us.webp" class="img-fluid" alt="about-us">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>let me<br>Introduce about<br>myself</h3>
+                    <p>Enthusiastic and motivated fresher with a strong foundation in web development technologies.
+                        Eager to contribute
+                        creative ideas, coding skills, and a passion for creating impactful digital experiences.</p>
+                    <p>Seeking an opportunity to grow
+                        as a web developer and collaborate on exciting projects</p>
+                    <a href="#" class="main-btn primary-btn mt-4">Download CV</a>
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center pt-5">
+                <div class="col-lg-6 mb-4 mg-lg-0">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo1.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo2.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo3.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo4.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo5.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo6.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo7.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo8.webp" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-4 ">
+                            <div class="single-logo-item">
+                                <img src="images/client-img/logo9.webp" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-10  offset-lg-2 ">
+                    <div class="client-info">
+                        <div class="d-flex ">
+                            <span class="large">10</span>
+                            <span class="smll py-4">Years<br>Experience<br>Working</span>
+                        </div>
+                        <div class="call-now d-flex py-4">
+                            <div>
+                                <span class="fa-solid fa-phone"></span>
+                            </div>
+                            <div class="ms-4">
+                                <p>Call us now</p>
+                                <h5>(+91) 9137715858</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!--skills-->
+    <section id="services" class="service_wrapper">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SKILLS</h2>
+                    <p>Our services are offered in a variety of delivery models based on your specific needs. <br
+                            class="d-none d-lg-block">All services are fulfilled by seasoned senior level security
+                        professionals.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div class="front">
+                            <img src="images/services-img/ui-ux.webp" class="img-fluid">
+                            <h5>Programming Langauge</h5>
+                        </div>
+                        <div class="back">
+                            <H5>PROGRAMMING LANGUAGES</H5>
+                            C | C++ | JAVA | PYTHON
+                            
+                        </div>
+                        <!-- <div>
+                            <img src="images/services-img/mouse.webp" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Web Development </h5>
+                            <p>C</p>
+                            <p>C++</p>
+                            <p>JAVA</p>
+                            <p>Python</p>
+                    -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div class="front">
+                            <img src="images/services-img/seo.webp" class="img-fluid">
+                            <h5>Web Development</h5>
+                        </div>
+                        
+                        <div class="back">
+                            <H5>WEB DEVELOPMENT</H5>
+                            HTML |  CSS | JAVASCRIPT
+                            <!-- <h5 class="skills">HTML</h5>
+                            <h5 class="skills">CSS</h5>
+                            <h5 class="skills">JAVASCRIPT</h5> -->
+                     
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3">
+                        <div class="front">
+                            <img src="images/services-img/website.webp" class="img-fluid">
+                            <h5>Data Analysis</h5>
+                        </div>
+                        <div class="back">
+                            <H5>DATA ANALYSIS</H5>
+                            MYSQL | EXCEL | MONGODB
+                         
+       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Portfolio-->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h2>Quality work<br>Recently done project</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab"
+                            aria-controls="pills-one" aria-selected="true">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab"
+                            aria-controls="pills-two" aria-selected="false">Latest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab"
+                            aria-controls="pills-three" aria-selected="false">Upcomming</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio1.webp" class="img-fluid w-100">
+                                    <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4"> MINIMAL DESIGN</h5>
+                                <p>Animated, Portfolio</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio2.webp" class="img-fluid w-100">
+                                    <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4"> MINIMAL DESIGN</h5>
+                                <p>Animated, Portfolio</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio3.webp" class="img-fluid w-100">
+                                    <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4"> MINIMAL DESIGN</h5>
+                                <p>Animated, Portfolio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-two-tab">...
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-three  -tab">
+                        ...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Blog-->
+    <!-- <section id="blog" class="blog_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>BLOG</h2>
+                    <p>Our services are offered in a variety of delivery models based on your specific needs. <br
+                            class="d-none d-lg-block">All services are fulfilled by seasoned senior level security
+                        professionals.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="images/blog/blog2.webp" class="img-fluid" alt="Blog1">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0"> Social Life</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Enjoy your social life together </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="images/blog/blog1.webp" class="img-fluid" alt="Blog1">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0"> Politics</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Enjoy your social life together </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="images/blog/blog2.webp" class="img-fluid" alt="Blog1">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0">Food</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Enjoy your social life together </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <img src="images/blog/blog.webp" class="img-fluid" alt="Blog1">
+                        <div class="blog_details">
+                            <div class="blog_text text-center">
+                                <h5 class="text-white mb-0"> Social Life</h5>
+                                <div class="border_line"></div>
+                                <p class="text-white">Enjoy your social life together </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section> -->
+
+    <!--footer-->
+    <section id="contact" class="footer_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 newsletter text-center px-4 ">
+                    <div>
+                        <h3 class="text-white"> get update from anywhere</h3>
+                        <p class="text-white"></p>
+
+                        <form class="row g-3 justify-content-center mt-4">
+                            <div class="col col-sm-6 col-lg-4">
+                                <input type="email" class="form-control" placeholder="Email address">
+                            </div>
+                            <div class="col col-auto">
+                                <button type="submit" class="main-btn secondary-btn border-white mb-3">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row align-item-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png" class="img-fluid" alt="footer">
+                    </div>
+                    <div class="my-4 social-icons">
+                        <h5>Follow Me</h5>
+                        <ul class="list-unstyled d-flex justify-content-center align-item-center">
+                            <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li> <a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <p class="footer-text text-center my-2"> Copyright <i class="fa-regular fa-copyright"></i> 2023 All
+                        rights reserved | This website is made with <i class="fa-regular fa-heart"></i> by <a
+                            href="#">Gautam</a> </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BOOTSTRAP 5 JS CDN LINKS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
